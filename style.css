@@ -1,10 +1,48 @@
-@import url('https://fonts.goggleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
-
 * {
   box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  background-image: url('./night-sky.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   margin: 0;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: -15rem;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
+
+.countdown-element {
+  text-align: center;
+}
+
+.countdown-element span {
+  font-size: 1.5rem;
 }
